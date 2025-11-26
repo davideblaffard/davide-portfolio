@@ -1,4 +1,4 @@
-export const PROJECT_FILTERS = ["All", "Java", "Python", "JavaScript", "React"];
+export const PROJECT_FILTERS = ["All", "Java", "Python", "JavaScript", "React", "Node.js", "AI"];
 
 export const projects = [
   {
@@ -47,4 +47,14 @@ export const projects = [
     link: "https://blafflix.vercel.app/",
     tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "TMDB API"],
   },
+
+  {
+  id: 6,
+  title: "AI Translation App (DeepL-style Clone)",
+  description:
+    "A full-stack translation app inspired by DeepL. Built originally with no prior React or Node.js experience using prompt engineering and iterative refinement. Supports OpenAI API and local models via Ollama. Translates texts of 2000+ characters in seconds while consuming under 100 tokens.",
+  linkLabel: "Live Website",
+  link: "https://deepl-clone.vercel.app/", 
+  tags: ["React", "Node.js", "OpenAI API", "AI", "Full Stack"],
+},
 ];
