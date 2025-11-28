@@ -272,8 +272,8 @@ body.theme-dark .navbar__mobile {
 }
 
 .hero__avatar {
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   border-radius: 40%;
   background: radial-gradient(circle at 20% 20%, #a5b4fc, #4f46e5);
   display: flex;
@@ -733,7 +733,7 @@ body.theme-dark .navbar__mobile {
 
 /* Responsiveness */
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .navbar__nav {
     display: flex;
   }
@@ -750,6 +750,16 @@ body.theme-dark .navbar__mobile {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .hero__visual {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .hero__avatar {
+  margin: 0 auto; /* centra il contenitore */
   }
 
   .section {
