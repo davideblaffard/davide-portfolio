@@ -27,7 +27,7 @@ const Hero = () => {
             <a
               href="/cv/davide_blaffard.pdf"
               className="btn btn--secondary"
-              onClick={(e) => e.preventDefault()}
+              download
             >
               Download CV
             </a>
