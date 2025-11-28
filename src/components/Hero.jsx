@@ -40,7 +40,7 @@ const Hero = () => {
         <div className="hero__visual">
           <div className="hero__avatar">
             <img
-              src="/profile/davide.jpg"
+              src="/profile/davide.JPG"
               alt="Davide Blaffard profile photo"
               className="hero__avatar-img"
             />
