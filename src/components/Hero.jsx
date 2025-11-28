@@ -39,11 +39,15 @@ const Hero = () => {
 
         <div className="hero__visual">
           <div className="hero__avatar">
-            <span className="hero__avatar-initials">DB</span>
+            <img
+              src="/profile/davide.jpg"
+              alt="Davide Blaffard profile photo"
+              className="hero__avatar-img"
+            />
           </div>
           <p className="hero__avatar-caption">
-            Backend-focused developer with a passion for clean code and
-            learning new tech.
+            A curious person who appreciates the small things, 
+            always ready to throw the hat first when a challenge seems out of reach.
           </p>
         </div>
       </div>
