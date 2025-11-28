@@ -25,7 +25,7 @@ const Hero = () => {
               Get in touch
             </a>
             <a
-              href="#"
+              href="/cv/davide_blaffard.pdf"
               className="btn btn--secondary"
               onClick={(e) => e.preventDefault()}
             >
