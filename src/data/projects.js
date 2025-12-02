@@ -11,6 +11,16 @@ export const PROJECT_FILTERS = [
 
 export const projects = [
   {
+  id: 7,
+  title: "Mini E-commerce",
+  description: "Mini e-commerce is a fully functional mini e-commerce application built with modern full-stack technologies. Designed as a portfolio project, it demonstrates real-world features such as product management, secure admin access, order creation, stock validation, and a polished glassmorphism UI.",
+  liveUrl: "https://mini-ecommerce-davide-blaffard.vercel.app/",
+  repoUrl: "https://github.com/davideblaffard/mini-ecommerce",
+  tags: ["React", "PostgreSQL"],
+  status: "online",
+  image: "/projects/mini-ecommerce.png",
+  },
+  {
     id: 1,
     title: "AI Translation App (DeepL-style Clone)",
     description:
@@ -74,15 +84,4 @@ export const projects = [
     inProgress: true,
     image: "/projects/generic.png",
   },
-  {
-  id: 7,
-  title: "Mini E-commerce",
-  description: "Mini e-commerce is a fully functional mini e-commerce application built with modern full-stack technologies. Designed as a portfolio project, it demonstrates real-world features such as product management, secure admin access, order creation, stock validation, and a polished glassmorphism UI.",
-  liveUrl: "https://mini-ecommerce-davide-blaffard.vercel.app/",
-  repoUrl: "https://github.com/davideblaffard/mini-ecommerce",
-  tags: ["React", "PostgreSQL"],
-  status: "online",
-  image: "/projects/mini-ecommerce.png",
-},
-
 ];
