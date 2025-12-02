@@ -6,6 +6,7 @@ export const PROJECT_FILTERS = [
   "React",
   "Node.js",
   "AI",
+  "PostgreSQL",
 ];
 
 export const projects = [
@@ -14,7 +15,7 @@ export const projects = [
     title: "AI Translation App (DeepL-style Clone)",
     description:
       "A full-stack translation app inspired by DeepL. Built originally with no prior React or Node.js experience using prompt engineering and iterative refinement. Supports OpenAI API and local models via Ollama, translating texts of 2000+ characters in seconds while keeping token usage very low.",
-    liveUrl: "https://deepl-clone.vercel.app", // <--- metti il tuo URL Vercel
+    liveUrl: "https://deepl-clone.vercel.app", 
     repoUrl: "https://github.com/davideblaffard/deepl-clone",
     tags: ["React", "Node.js", "OpenAI API", "AI", "Full Stack"],
     status: "online", // online | code-only | wip (work in progress)
@@ -26,7 +27,7 @@ export const projects = [
     description:
       "A responsive OTT-style streaming platform with dynamic TMDB-powered content, custom UI, advanced animations, search, skeleton loaders, and a persistent “My List” system.",
     liveUrl: "https://blafflix.vercel.app/",
-    // repoUrl: "https://github.com/...", // aggiungi se ce l’hai
+    // repoUrl: 
     tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "TMDB API"],
     status: "online",
     image: "/projects/blafflix.png",
@@ -73,4 +74,15 @@ export const projects = [
     inProgress: true,
     image: "/projects/generic.png",
   },
+  {
+  id: 7,
+  title: "Mini E-commerce",
+  description: "Mini e-commerce is a fully functional mini e-commerce application built with modern full-stack technologies. Designed as a portfolio project, it demonstrates real-world features such as product management, secure admin access, order creation, stock validation, and a polished glassmorphism UI.",
+  liveUrl: "https://mini-ecommerce-davide-blaffard.vercel.app/",
+  repoUrl: "https://github.com/davideblaffard/mini-ecommerce",
+  tags: ["React", "PostgreSQL"],
+  status: "online",
+  image: "/projects/mini-ecommerce.png",
+},
+
 ];
