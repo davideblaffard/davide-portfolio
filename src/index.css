@@ -182,6 +182,20 @@ body.theme-dark .navbar__mobile {
   background-color: var(--color-primary-soft);
 }
 
+/* MOBILE: centrare SOLO la foto */
+@media (max-width: 768px) {
+  .hero__visual {
+    width: 100%;
+    display: flex;
+    justify-content: center;   /* centra orizzontalmente */
+    align-items: center;
+  }
+
+  .hero__avatar {
+    margin: 0 auto;           /* assicura centratura del contenitore */
+  }
+}
+
 /* Sezioni */
 
 .section {
