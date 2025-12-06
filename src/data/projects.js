@@ -5,18 +5,30 @@ export const PROJECT_FILTERS = [
   "JavaScript",
   "React",
   "Node.js",
+  "Next.js",
   "AI",
+  "Supabase",
   "PostgreSQL",
 ];
 
 export const projects = [
+  {
+    id: 8,
+    title: "Dashboard Aziendale per la gestione interna",
+    description: "A secure internal management platform designed for HR, Area Managers, and Store Managers. The application includes role-based access control, employee and contract management, supplier management with order forms, and document handling via Supabase Storage. The project follows a scalable, server-driven architecture with protected routes, RLS policies, and clean UI components.",
+    repoUrl: "https://github.com/davideblaffard/dashboard-aziendale",
+    tags: ["React", "Next.js", "Supabase", "Postgre SQL"],
+    status: "wip",
+    inProgress: true,
+    image: "/projects/generic.png",
+  },
   {
   id: 7,
   title: "Mini E-commerce",
   description: "Mini e-commerce is a fully functional mini e-commerce application built with modern full-stack technologies. Designed as a portfolio project, it demonstrates real-world features such as product management, secure admin access, order creation, stock validation, and a polished glassmorphism UI.",
   liveUrl: "https://mini-ecommerce-davide-blaffard.vercel.app/",
   repoUrl: "https://github.com/davideblaffard/mini-ecommerce",
-  tags: ["React", "PostgreSQL"],
+  tags: ["React", "PostgreSQL", "Next.js"],
   status: "online",
   image: "/projects/mini-ecommerce.png",
   },
